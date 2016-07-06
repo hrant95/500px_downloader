@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "500px downloader",
-  "description": "",
-  "version": "1.0",
+  "description": "Extension for downloading images.",
+  "version": "1.01",
   "browser_action": {
     "default_icon": "img/ic_download.png",
     "default_popup": "popup.html"
@@ -14,7 +14,7 @@
         "https://500px.com/"
       ],
       "js": [
-        "downloader.js"
+        "home_page_img_downloader.js"
       ]
     },
     {
